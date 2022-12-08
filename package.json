@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Houter - House Hunter UI Design (Community)",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/base.css -o ./dist/base.css --watch",
-    "start": "npx tailwindcss -i ./src/base.css -o ./dist/base.css",
-    "start:init": "npm ci && npm run start && open-cli ./src/index.html"
+    "dev": "npx tailwindcss -i ./base.css -o ./dist/base.css --watch",
+    "start": "npx tailwindcss -i ./base.css -o ./dist/base.css",
+    "start:init": "npm ci && npm run start && open-cli ./index.html"
   },
   "repository": {
     "type": "git",

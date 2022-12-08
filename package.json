@@ -8,7 +8,7 @@
     "start": "npx tailwindcss -i ./base.css -o ./dist/base.css",
     "start:init": "npm ci && npm run start && open-cli ./index.html",
     "predeploy": "npm run start",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./"
   },
   "repository": {
     "type": "git",

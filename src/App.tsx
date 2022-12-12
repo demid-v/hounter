@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Recommendations from "./components/Recommendations";
+import Recommendations from "./components/Recs";
 
 function App() {
   return (

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/hounter/static/css/main.edb5ef74.css",
+    "main.js": "/hounter/static/js/main.f44f8d49.js",
+    "static/js/787.9da081d6.chunk.js": "/hounter/static/js/787.9da081d6.chunk.js",
+    "static/media/house-2.png": "/hounter/static/media/house-2.2125005c6a0ca0327045.png",
+    "static/media/house-1.png": "/hounter/static/media/house-1.59a562396b93e7e0c625.png",
+    "static/media/cloud.png": "/hounter/static/media/cloud.60911df46beda7e90771.png",
+    "static/media/house-4.jpg": "/hounter/static/media/house-4.c930be113c0c680b16aa.jpg",
+    "static/media/tripadvisor.png": "/hounter/static/media/tripadvisor.0462b6921ca71d7c383a.png",
+    "static/media/avatar-3.jpg": "/hounter/static/media/avatar-3.7dcc001246e297064555.jpg",
+    "static/media/avatar-4.jpg": "/hounter/static/media/avatar-4.bde0fba93845837f96dc.jpg",
+    "static/media/avatar-1.jpg": "/hounter/static/media/avatar-1.d89911b5d271bdc8256a.jpg",
+    "static/media/avatar-2.jpg": "/hounter/static/media/avatar-2.f7e34bc64f42db885e23.jpg",
+    "static/media/airbnb.png": "/hounter/static/media/airbnb.e4424517383d14a03a24.png",
+    "static/media/tiket-dot-com.png": "/hounter/static/media/tiket-dot-com.477f6c75e3c1de84e382.png",
+    "static/media/traveloka.png": "/hounter/static/media/traveloka.1deed3828e51753f6b8f.png",
+    "static/media/fire.svg": "/hounter/static/media/fire.340504251a588f39164a8c327ae615da.svg",
+    "static/media/house-3.svg": "/hounter/static/media/house-3.d3f38e5cbea9c6b101d2b94de6e43c31.svg",
+    "static/media/arrow-right-2.svg": "/hounter/static/media/arrow-right-2.e17c4569c1202dd25192edb3f7765187.svg",
+    "static/media/arrow-left.svg": "/hounter/static/media/arrow-left.52e778d355b296daca1a667963ade39c.svg",
+    "static/media/arrow-down.svg": "/hounter/static/media/arrow-down.58588c8a5348d991a86fd4e90641ad1c.svg",
+    "static/media/arrow-right-1.svg": "/hounter/static/media/arrow-right-1.886753f07cf566fa9d4ccb13edd084e6.svg",
+    "static/media/location.svg": "/hounter/static/media/location.b67a09d4c723016b05fbfdb6f39c7ac0.svg",
+    "static/media/villa.svg": "/hounter/static/media/villa.8b5c8f34977047682f364d4276f268a6.svg",
+    "index.html": "/hounter/index.html",
+    "static/media/apartment.svg": "/hounter/static/media/apartment.fcf37f6dcefbc440afe524d4e93d8224.svg",
+    "static/media/logo.svg": "/hounter/static/media/logo.472950a90985fec991ef6b0ae4686dd3.svg",
+    "static/media/dash.svg": "/hounter/static/media/dash.f64d91c2ba4da3f19923e504733a7352.svg",
+    "main.edb5ef74.css.map": "/hounter/static/css/main.edb5ef74.css.map",
+    "main.f44f8d49.js.map": "/hounter/static/js/main.f44f8d49.js.map",
+    "787.9da081d6.chunk.js.map": "/hounter/static/js/787.9da081d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edb5ef74.css",
+    "static/js/main.f44f8d49.js"
+  ]
+}

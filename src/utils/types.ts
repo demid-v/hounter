@@ -15,7 +15,7 @@ type RecCardData = {
 };
 
 type OfferData = {
-  bg: string;
+  bgColor: string;
   pic: string;
   alt?: string;
   text: string;

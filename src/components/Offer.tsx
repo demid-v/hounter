@@ -4,16 +4,16 @@ import fire from "../assets/fire.svg";
 import house8 from "../assets/house-8.svg";
 import wallet from "../assets/wallet.svg";
 
-const Offer: FC<{ data: OfferData }> = ({ data }) => (
+const Offer: FC<{ data: OfferData }> = ({
+  data: { bgColor, pic, alt, textColor, text },
+}) => (
   <div
-    className={`absolute bottom-4 left-4 flex w-fit rounded-[2rem] bg-[#${data.bg}] py-2 px-4`}
+    className={`absolute bottom-4 left-4 flex w-fit rounded-[2rem] py-2 px-4 ${bgColor}`}
   >
     <span className="sr-only">Offer</span>
-    <img src={data.pic} alt={data.alt} className="mr-2.5" />
-    <div
-      className={`text-sm font-medium leading-[1.125rem] text-[#${data.textColor}]`}
-    >
-      {data.text}
+    <img src={pic} alt={alt} className="mr-2.5" />
+    <div className={`text-sm font-medium leading-[1.125rem] ${textColor}`}>
+      {text}
     </div>
   </div>
 );
@@ -21,11 +21,11 @@ const Offer: FC<{ data: OfferData }> = ({ data }) => (
 const PopularOffer = () => (
   <Offer
     data={{
-      bg: "fee2e2",
+      bgColor: "bg-[#fee2e2]",
       pic: fire,
       alt: "Fire",
+      textColor: "text-[#ef4444]",
       text: "Popular",
-      textColor: "ef4444",
     }}
   />
 );
@@ -33,11 +33,11 @@ const PopularOffer = () => (
 const NewHouseOffer = () => (
   <Offer
     data={{
-      bg: "dbeafe",
+      bgColor: "bg-[#dbeafe]",
       pic: house8,
       alt: "House",
       text: "New House",
-      textColor: "1d4ed8",
+      textColor: "text-[#1d4ed8]",
     }}
   />
 );
@@ -45,11 +45,11 @@ const NewHouseOffer = () => (
 const BestDealsOffer = () => (
   <Offer
     data={{
-      bg: "d1fae5",
+      bgColor: "bg-[#d1fae5]",
       pic: wallet,
       alt: "Wallet",
       text: "Best Deals",
-      textColor: "047857",
+      textColor: "text-[#047857]",
     }}
   />
 );

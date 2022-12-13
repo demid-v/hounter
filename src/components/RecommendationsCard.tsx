@@ -1,7 +1,7 @@
-import { RecCardData } from "../utils/types";
+import type { RecommendationsCardData } from "../utils/types";
 import type { FC } from "react";
 
-const RecsCard: FC<{ rec: RecCardData }> = ({ rec }) => {
+const RecommendationsCard: FC<{ rec: RecommendationsCardData }> = ({ rec }) => {
   const costFormatted = (cost: number) =>
     cost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
@@ -12,7 +12,7 @@ const RecsCard: FC<{ rec: RecCardData }> = ({ rec }) => {
           <img
             src={rec.pic}
             alt="House"
-            className="aspect-auto aspect-[9/10] min-h-[23.875rem] w-full rounded-3xl object-cover"
+            className="aspect-auto aspect-[340/382] min-h-[23.875rem] w-full rounded-3xl object-cover"
           />
         </picture>
         {rec.offer}
@@ -27,14 +27,14 @@ const RecsCard: FC<{ rec: RecCardData }> = ({ rec }) => {
         </dd>
         <dt className="sr-only">Owner</dt>
         <dd>
-          <dl className="flex gap-x-4">
+          <dl className="flex items-center gap-x-4">
             <div>
               <dt className="sr-only">Owner's avatar</dt>
               <dd>
                 <img
                   src={rec.owner.pic}
                   alt={rec.owner.alt}
-                  className="w-[3.5rem] w-10 rounded-full"
+                  className="w-10 rounded-full"
                 />
               </dd>
             </div>
@@ -60,4 +60,4 @@ const RecsCard: FC<{ rec: RecCardData }> = ({ rec }) => {
   );
 };
 
-export default RecsCard;
+export default RecommendationsCard;

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-type RecCardData = {
+type RecommendationsCardData = {
   id: string;
   pic: string;
   offer: ReactNode;
@@ -22,4 +22,4 @@ type OfferData = {
   textColor: string;
 };
 
-export type { RecCardData, OfferData };
+export type { RecommendationsCardData, OfferData };

@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Recommendations from "./components/Recs";
+import Recommendations from "./components/Recommendations";
+import Tour from "./components/Tour";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Recommendations />
+      <Tour />
     </div>
   );
 }

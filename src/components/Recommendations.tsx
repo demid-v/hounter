@@ -4,8 +4,8 @@ import villa from "../assets/villa.svg";
 import apartment from "../assets/apartment.svg";
 import leftArrow from "../assets/arrow-left.svg";
 import rightArrow from "../assets/arrow-right-2.svg";
-import RecsCard from "./RecsCard";
-import { RecCardData } from "../utils/types";
+import RecommendationsCard from "./RecommendationsCard";
+import { RecommendationsCardData } from "../utils/types";
 import house4 from "../assets/house-4.jpg";
 import house5 from "../assets/house-5.jpg";
 import house6 from "../assets/house-6.jpg";
@@ -17,7 +17,7 @@ import avatar7 from "../assets/avatar-7.jpg";
 import { PopularOffer, BestDealsOffer, NewHouseOffer } from "./Offer";
 
 const Recommendations = () => {
-  const recs: RecCardData[] = [
+  const cards: RecommendationsCardData[] = [
     {
       id: "1",
       pic: house4,
@@ -112,8 +112,8 @@ const Recommendations = () => {
         </div>
       </div>
       <div className="relative flex w-[calc(100%+7.5rem)] gap-x-10 overflow-hidden pl-10  pr-[7.5rem]">
-        {recs.map((rec) => (
-          <RecsCard key={rec.id} rec={rec} />
+        {cards.map((rec) => (
+          <RecommendationsCard key={rec.id} rec={rec} />
         ))}
       </div>
     </section>

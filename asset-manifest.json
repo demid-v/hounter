@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/hounter/static/css/main.6e5c450c.css",
-    "main.js": "/hounter/static/js/main.6d80d80e.js",
+    "main.css": "/hounter/static/css/main.53b59760.css",
+    "main.js": "/hounter/static/js/main.9a99d239.js",
     "static/js/787.9da081d6.chunk.js": "/hounter/static/js/787.9da081d6.chunk.js",
     "static/media/house-9.png": "/hounter/static/media/house-9.750e224889d6618def01.png",
     "static/media/house-2.png": "/hounter/static/media/house-2.2125005c6a0ca0327045.png",
     "static/media/house-1.png": "/hounter/static/media/house-1.59a562396b93e7e0c625.png",
-    "static/media/cloud.png": "/hounter/static/media/cloud.60911df46beda7e90771.png",
+    "static/media/cloud-2.png": "/hounter/static/media/cloud-2.fe474d7782a6b7681066.png",
+    "static/media/cloud-1.png": "/hounter/static/media/cloud-1.60911df46beda7e90771.png",
+    "static/media/cloud-3.png": "/hounter/static/media/cloud-3.6c193503a4809b2d44b4.png",
     "static/media/house-7.jpg": "/hounter/static/media/house-7.f30d37ee487ca83ccea9.jpg",
     "static/media/house-5.jpg": "/hounter/static/media/house-5.3b857703261caf32f13f.jpg",
     "static/media/house-4.jpg": "/hounter/static/media/house-4.c930be113c0c680b16aa.jpg",
@@ -27,6 +29,7 @@
     "static/media/traveloka.png": "/hounter/static/media/traveloka.1deed3828e51753f6b8f.png",
     "static/media/bath.svg": "/hounter/static/media/bath.5ba18d75078bc80cbb7125befef06c09.svg",
     "static/media/car-garage.svg": "/hounter/static/media/car-garage.74a4f50fd51d373e9dcbfca99b2189a7.svg",
+    "static/media/play-button.svg": "/hounter/static/media/play-button.4b3a796e8bf55005951703478c0df154.svg",
     "static/media/fire.svg": "/hounter/static/media/fire.340504251a588f39164a8c327ae615da.svg",
     "static/media/house-3.svg": "/hounter/static/media/house-3.d3f38e5cbea9c6b101d2b94de6e43c31.svg",
     "static/media/house-8.svg": "/hounter/static/media/house-8.286b4b802d8318238e583ddb168522b1.svg",
@@ -44,12 +47,12 @@
     "static/media/logo.svg": "/hounter/static/media/logo.472950a90985fec991ef6b0ae4686dd3.svg",
     "static/media/dash.svg": "/hounter/static/media/dash.f64d91c2ba4da3f19923e504733a7352.svg",
     "static/media/line.svg": "/hounter/static/media/line.df1e9f435d9e04c850a7a2ceb269977e.svg",
-    "main.6e5c450c.css.map": "/hounter/static/css/main.6e5c450c.css.map",
-    "main.6d80d80e.js.map": "/hounter/static/js/main.6d80d80e.js.map",
+    "main.53b59760.css.map": "/hounter/static/css/main.53b59760.css.map",
+    "main.9a99d239.js.map": "/hounter/static/js/main.9a99d239.js.map",
     "787.9da081d6.chunk.js.map": "/hounter/static/js/787.9da081d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5c450c.css",
-    "static/js/main.6d80d80e.js"
+    "static/css/main.53b59760.css",
+    "static/js/main.9a99d239.js"
   ]
 }

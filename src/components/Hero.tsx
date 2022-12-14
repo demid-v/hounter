@@ -1,4 +1,4 @@
-import blueCloud from "../assets/cloud.png";
+import cloud1 from "../assets/cloud-1.png";
 import location from "../assets/location.svg";
 import rightArrow from "../assets/arrow-right-1.svg";
 import traveloka from "../assets/traveloka.png";
@@ -16,7 +16,7 @@ const Hero = () => (
   <section className="mb-[7.5rem] flex w-[calc(100%+7.5rem)] items-start">
     <div className="flex-1 pt-[11.375rem] pr-[6.5rem]">
       <img
-        src={blueCloud}
+        src={cloud1}
         alt="Blue cloud"
         className="absolute top-0 left-0 -z-10"
       />
@@ -84,7 +84,7 @@ const Hero = () => (
       </div>
     </div>
 
-    <div className="relative aspect-square w-[calc(50%+3.75rem)] overflow-hidden">
+    <div className="relative aspect-square w-[calc(50%+3.75rem)] overflow-x-hidden">
       <img src={house1} alt="House" className="w-full" />
       <div className="absolute bottom-12 left-12 flex w-full items-start gap-x-4">
         <div className="flex items-center gap-x-4 rounded-[2rem] bg-white p-6">

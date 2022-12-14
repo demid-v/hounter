@@ -10,9 +10,12 @@ import furniture from "../assets/furniture.jpg";
 import line from "../assets/line.svg";
 import avatar3 from "../assets/avatar-3.jpg";
 import phone from "../assets/phone.png";
+import playButton from "../assets/play-button.svg";
+import cloud2 from "../assets/cloud-2.png";
+import cloud3 from "../assets/cloud-3.png";
 
 const Tour = () => (
-  <section className="mb-[7.5rem] flex justify-between">
+  <section className="relative mb-[7.5rem] flex justify-between">
     <div className="mr-[9.25rem] mt-7 min-w-[32.75rem]">
       <h6 className="mb-3 text-sm leading-[1.125rem]">
         <img src={dash} alt="Dash" className="mr-2 inline-block" />
@@ -100,13 +103,21 @@ const Tour = () => (
     </div>
 
     <div className="relative pb-[2.688rem] pl-10">
-      <img
-        src={house9}
-        alt="House"
-        width={1050}
-        height={700}
-        className="aspect-[488/416] object-cover"
-      />
+      <div className="relative">
+        <img
+          src={house9}
+          alt="House"
+          width={1050}
+          height={700}
+          className="aspect-[488/416] object-cover"
+        />
+        <div className="absolute top-0 aspect-[488/416] h-full w-full bg-black/20"></div>
+        <img
+          src={playButton}
+          alt="Play"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        />
+      </div>
       <div className="absolute bottom-0 left-0 mr-5 flex items-end">
         <img
           src={couch}
@@ -120,17 +131,28 @@ const Tour = () => (
           alt="Vase"
           width={320}
           height={480}
-          className="mr-2 aspect-[96/80] min-w-[6rem] object-cover"
+          className="mr-2 aspect-[96/80] min-w-[6rem] rounded object-cover"
         />
         <img
           src={furniture}
           alt="Furniture"
           width={480}
           height={320}
-          className="aspect-[96/80] min-w-[6rem] object-cover"
+          className="aspect-[96/80] min-w-[6rem] rounded object-cover"
         />
       </div>
     </div>
+
+    <img
+      src={cloud2}
+      alt="Red cloud"
+      className="absolute -right-[13.375rem] -top-[10.625rem] -z-10 aspect-[438/494] w-[36.5%]"
+    />
+    <img
+      src={cloud3}
+      alt="Yellow cloud"
+      className="absolute -right-[17.063rem] -top-12 -z-10 aspect-[438/494] w-[36.5%]"
+    />
   </section>
 );
 

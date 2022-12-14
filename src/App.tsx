@@ -5,7 +5,7 @@ import Tour from "./components/Tour";
 
 function App() {
   return (
-    <div className="relative px-[7.5rem]">
+    <div className="relative overflow-hidden px-[7.5rem]">
       <Header />
       <Hero />
       <Recommendations />

@@ -111,7 +111,7 @@ const Recommendations = () => {
           </button>
         </div>
       </div>
-      <div className="relative flex w-[calc(100%+7.5rem)] gap-x-10 overflow-hidden pl-10  pr-[7.5rem]">
+      <div className="relative flex w-[calc(100%+7.5rem)] gap-x-10 pl-10  pr-[7.5rem]">
         {cards.map((rec) => (
           <RecommendationsCard key={rec.id} rec={rec} />
         ))}

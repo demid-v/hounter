@@ -10,7 +10,7 @@ const RecommendationsCard: FC<{ rec: RecommendationsCardData }> = ({ rec }) => {
       <div className="relative mb-6">
         <picture>
           <img
-            src={rec.pic}
+            src={rec.img}
             alt="House"
             className="aspect-auto aspect-[340/382] min-h-[23.875rem] w-full rounded-3xl object-cover"
           />
@@ -32,7 +32,7 @@ const RecommendationsCard: FC<{ rec: RecommendationsCardData }> = ({ rec }) => {
               <dt className="sr-only">Owner's avatar</dt>
               <dd>
                 <img
-                  src={rec.owner.pic}
+                  src={rec.owner.img}
                   alt={rec.owner.alt}
                   className="w-10 rounded-full"
                 />

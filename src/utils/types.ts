@@ -1,13 +1,14 @@
+import { type } from "os";
 import { ReactNode } from "react";
 
 type RecommendationsCardData = {
   id: string;
-  pic: string;
+  img: string;
   offer: ReactNode;
   name: string;
   cost: number;
   owner: {
-    pic: string;
+    img: string;
     alt?: string;
     name: string;
     location: string;
@@ -22,4 +23,17 @@ type OfferData = {
   textColor: string;
 };
 
-export type { RecommendationsCardData, OfferData };
+type ReviewData = {
+  img: string;
+  title: string;
+  text: string;
+  user: {
+    img: string;
+    alt?: string;
+    name: string;
+    jobTitle: string;
+  };
+  rating: number;
+};
+
+export type { RecommendationsCardData, OfferData, ReviewData };

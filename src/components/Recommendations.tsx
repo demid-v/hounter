@@ -20,12 +20,12 @@ const Recommendations = () => {
   const cards: RecommendationsCardData[] = [
     {
       id: "1",
-      pic: house4,
+      img: house4,
       offer: <PopularOffer />,
       name: "Roselands House",
       cost: 35e6,
       owner: {
-        pic: avatar3,
+        img: avatar3,
         alt: "Woman",
         name: "Dianne Russell",
         location: "Manchester, Kentucky",
@@ -33,12 +33,12 @@ const Recommendations = () => {
     },
     {
       id: "2",
-      pic: house5,
+      img: house5,
       offer: <NewHouseOffer />,
       name: "Woodlandside",
       cost: 20e6,
       owner: {
-        pic: avatar5,
+        img: avatar5,
         alt: "Man",
         name: "Robert Fox",
         location: "Dr. San Jose, South Dakota",
@@ -46,12 +46,12 @@ const Recommendations = () => {
     },
     {
       id: "3",
-      pic: house6,
+      img: house6,
       offer: <BestDealsOffer />,
       name: "The Old Lighthouse",
       cost: 44e6,
       owner: {
-        pic: avatar6,
+        img: avatar6,
         alt: "Man",
         name: "Ronald Richards",
         location: "Santa Ana, Illinois",
@@ -59,12 +59,12 @@ const Recommendations = () => {
     },
     {
       id: "4",
-      pic: house7,
+      img: house7,
       offer: <PopularOffer />,
       name: "Cosmo's House",
       cost: 22e6,
       owner: {
-        pic: avatar7,
+        img: avatar7,
         alt: "Woman",
         name: "Jenny Wilson",
         location: "Preston Rd. Inglewood, Maine 98380",

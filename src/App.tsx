@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Recommendations from "./components/Recommendations";
+import Reviews from "./components/Reviews";
 import Tour from "./components/Tour";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Recommendations />
       <Tour />
+      <Reviews />
     </div>
   );
 }

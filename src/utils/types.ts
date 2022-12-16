@@ -1,4 +1,3 @@
-import { type } from "os";
 import { ReactNode } from "react";
 
 type RecommendationsCardData = {
@@ -36,4 +35,23 @@ type ReviewData = {
   rating: number;
 };
 
-export type { RecommendationsCardData, OfferData, ReviewData };
+type TipData = {
+  isMain?: boolean;
+  img: string;
+  author: { img: string; name: string };
+  title: string;
+  readTime: number;
+  publicationDate: string;
+};
+
+type SideTipData = TipData & { isMain?: false };
+
+type MainTipData = TipData & { isMain: true; text: string };
+
+export type {
+  RecommendationsCardData,
+  OfferData,
+  ReviewData,
+  SideTipData,
+  MainTipData,
+};

@@ -1,7 +1,7 @@
 import dash from "../assets/dash.svg";
 import house3 from "../assets/house-3.svg";
 import villa from "../assets/villa.svg";
-import apartment from "../assets/apartment.svg";
+import apartment1 from "../assets/apartment-1.svg";
 import leftArrow from "../assets/arrow-left.svg";
 import rightArrow from "../assets/arrow-right-2.svg";
 import RecommendationsCard from "./RecommendationsCard";
@@ -96,7 +96,7 @@ const Recommendations = () => {
             <span className="text-lg font-medium text-[#888b97]">Villa</span>
           </button>
           <button className="flex h-min gap-x-2 rounded-[2rem] border border-[#e0e3eb] bg-white px-6 py-3">
-            <img src={apartment} alt="Apartment" />
+            <img src={apartment1} alt="Apartment" />
             <span className="text-lg font-medium text-[#888b97]">
               Apartment
             </span>

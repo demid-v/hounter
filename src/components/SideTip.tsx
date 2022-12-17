@@ -13,13 +13,15 @@ const Tip: FC<{ data: SideTipData | MainTipData }> = ({ data }) => {
   } = data;
 
   return (
-    <div className={isMain ? "" : "mb-10 flex w-[35.75rem] gap-x-8 last:mb-0"}>
+    <div className={isMain ? "flex-1" : "mb-10 flex gap-x-8 last:mb-0"}>
       <img
         src={img}
         alt="House"
         className={
           "rounded-2xl object-cover" +
-          (isMain ? " mb-6 w-[35rem]" : " w-[12.5rem]")
+          (isMain
+            ? " mb-6"
+            : " my-auto aspect-[200/144] w-[calc(100%*200/572)]")
         }
       />
       <dl>

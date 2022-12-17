@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Recommendations from "./components/Recommendations";
 import Reviews from "./components/Reviews";
+import Subscription from "./components/Subscription";
 import Tips from "./components/Tips";
 import Tour from "./components/Tour";
 
@@ -14,6 +15,7 @@ function App() {
       <Tour />
       <Reviews />
       <Tips />
+      <Subscription />
     </div>
   );
 }

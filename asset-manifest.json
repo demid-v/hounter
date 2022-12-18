@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hounter/static/css/main.6a5c3f0a.css",
-    "main.js": "/hounter/static/js/main.2f0e5bf0.js",
+    "main.css": "/hounter/static/css/main.950c2d19.css",
+    "main.js": "/hounter/static/js/main.3b52b8ce.js",
     "static/js/787.9da081d6.chunk.js": "/hounter/static/js/787.9da081d6.chunk.js",
     "static/media/house-9.png": "/hounter/static/media/house-9.750e224889d6618def01.png",
     "static/media/house-2.png": "/hounter/static/media/house-2.2125005c6a0ca0327045.png",
@@ -74,12 +74,12 @@
     "static/media/pagination.svg": "/hounter/static/media/pagination.c0c0a8fc83ee329a301306d71ecda6c3.svg",
     "static/media/dash.svg": "/hounter/static/media/dash.f64d91c2ba4da3f19923e504733a7352.svg",
     "static/media/line.svg": "/hounter/static/media/line.1e895b23721a57628b13318554e25274.svg",
-    "main.6a5c3f0a.css.map": "/hounter/static/css/main.6a5c3f0a.css.map",
-    "main.2f0e5bf0.js.map": "/hounter/static/js/main.2f0e5bf0.js.map",
+    "main.950c2d19.css.map": "/hounter/static/css/main.950c2d19.css.map",
+    "main.3b52b8ce.js.map": "/hounter/static/js/main.3b52b8ce.js.map",
     "787.9da081d6.chunk.js.map": "/hounter/static/js/787.9da081d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a5c3f0a.css",
-    "static/js/main.2f0e5bf0.js"
+    "static/css/main.950c2d19.css",
+    "static/js/main.3b52b8ce.js"
   ]
 }

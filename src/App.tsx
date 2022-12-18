@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Recommendations from "./components/Recommendations";
@@ -16,6 +17,7 @@ function App() {
       <Reviews />
       <Tips />
       <Subscription />
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,7 @@ import pagination from "../assets/pagination.svg";
 const Reviews = () => {
   const reviews: ReviewData[] = [
     {
+      id: 1,
       img: house10,
       title: "My house sold out fast!",
       text: "I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!",
@@ -23,6 +24,7 @@ const Reviews = () => {
       rating: 4.3,
     },
     {
+      id: 2,
       img: house11,
       title: "Best! I got the house I wanted through Hounter",
       text: "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
@@ -34,6 +36,7 @@ const Reviews = () => {
       rating: 4.6,
     },
     {
+      id: 3,
       img: house12,
       title: "Through the Hounter, I can get a house for my self",
       text: "By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!",
@@ -60,7 +63,7 @@ const Reviews = () => {
       <div>
         <div className="relative -right-1/2 mb-8 flex w-[calc(46.25rem*3+3.5rem*2)] -translate-x-1/2 gap-x-14">
           {reviews.map((review) => (
-            <Review review={review} />
+            <Review key={review.id} review={review} />
           ))}
         </div>
         <img src={pagination} alt="Pagination" className="mx-auto" />

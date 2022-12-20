@@ -14,21 +14,21 @@ const Header = () => (
             <li>
               <a
                 href="/about"
-                className="block rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold leading-[2rem] text-[#f0f3fd]"
+                className="flex h-8 items-center rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold text-[#f0f3fd]"
               >
-                <div className="w-16">About Us</div>
+                About Us
               </a>
             </li>
             <li>
               <a
                 href="/article"
-                className="block rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold leading-[2rem] text-[#f0f3fd]"
+                className="flex h-8 items-center rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold text-[#f0f3fd]"
               >
-                <div className="w-[2.8755rem]">Article</div>
+                Article
               </a>
             </li>
             <li>
-              <button className="block rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold leading-[2rem] text-[#f0f3fd]">
+              <button className="h-8 rounded-[32px] border border-white/30 bg-white/10 px-4 text-sm font-semibold text-[#f0f3fd]">
                 <span className="mr-2.5 inline-block w-[3.875rem]">
                   Property
                 </span>
@@ -37,10 +37,11 @@ const Header = () => (
             </li>
           </ul>
         </nav>
-        <a href="/sign-up" className="block">
-          <span className="block rounded-[32px] border border-[#d1fae5] bg-[#d1fae5] px-6 text-sm font-semibold leading-[2.875rem] text-[#047857]">
-            Sign Up!
-          </span>
+        <a
+          href="/sign-up"
+          className="flex h-[2.875rem] items-center rounded-[32px] border border-[#d1fae5] bg-[#d1fae5] px-6 text-sm font-semibold leading-[2.875rem] text-[#047857]"
+        >
+          Sign Up!
         </a>
       </div>
     </div>

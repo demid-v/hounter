@@ -14,6 +14,7 @@ import cloud from "../assets/cloud-4.png";
 const Tips = () => {
   const sideTips: SideTipData[] = [
     {
+      id: 1,
       img: apartment2,
       author: { img: avatar3, name: "Dianne Russell" },
       title: "The things we need to check when we want to buy a house",
@@ -21,6 +22,7 @@ const Tips = () => {
       publicationDate: "25 Apr 2021",
     },
     {
+      id: 2,
       img: house13,
       author: { img: avatar9, name: "Courtney Henry" },
       title: "7 Ways to distinguish the quality of the house we want to buy",
@@ -28,6 +30,7 @@ const Tips = () => {
       publicationDate: "24 Apr 2021",
     },
     {
+      id: 3,
       img: house14,
       author: { img: avatar10, name: "Darlene Robertson" },
       title: "The best way to know the quality of the house we want to buy",
@@ -62,7 +65,7 @@ const Tips = () => {
         <div className="flex gap-[4.25rem]">
           <div className="aspect-[572/524] w-[calc(100%*(572/1200))]">
             {sideTips.map((tip) => (
-              <SideTip data={tip} />
+              <SideTip key={tip.id} data={tip} />
             ))}
           </div>
           <MainTip

@@ -146,12 +146,12 @@ const Tour = () => (
     <img
       src={cloud2}
       alt="Red cloud"
-      className="absolute -right-[13.375rem] -top-[10.625rem] -z-10 aspect-[438/494] w-[36.5%]"
+      className="absolute -right-36 -top-64 -z-10 aspect-[438/494] w-[36.5%]"
     />
     <img
       src={cloud3}
       alt="Yellow cloud"
-      className="absolute -right-[17.063rem] -top-12 -z-10 aspect-[438/494] w-[36.5%]"
+      className="absolute -right-64 -top-40 -z-10 aspect-[438/494] w-[36.5%]"
     />
   </section>
 );

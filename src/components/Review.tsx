@@ -27,25 +27,27 @@ const Review: FC<{ review: ReviewData }> = ({
         <div>
           <dt className="sr-only">User's info</dt>
           <dd className="flex gap-x-6">
-            <dt className="sr-only">User's avatar</dt>
-            <dd>
-              <img src={userImg} alt="Woman" className="w-10 rounded-full" />
-            </dd>
-            <div>
-              <dt className="sr-only">User's details</dt>
+            <dl>
+              <dt className="sr-only">User's avatar</dt>
               <dd>
-                <dl>
-                  <dt className="sr-only">User's name</dt>
-                  <dd className="mb-1 text-sm font-medium leading-[1.375rem] text-[#0e1735]">
-                    {name}
-                  </dd>
-                  <dt className="sr-only">User's title</dt>
-                  <dd className="text-sm font-medium leading-[1.375rem] text-[#888b97]">
-                    {jobTitle}
-                  </dd>
-                </dl>
+                <img src={userImg} alt="Woman" className="w-10 rounded-full" />
               </dd>
-            </div>
+              <div>
+                <dt className="sr-only">User's details</dt>
+                <dd>
+                  <dl>
+                    <dt className="sr-only">User's name</dt>
+                    <dd className="mb-1 text-sm font-medium leading-[1.375rem] text-[#0e1735]">
+                      {name}
+                    </dd>
+                    <dt className="sr-only">User's title</dt>
+                    <dd className="text-sm font-medium leading-[1.375rem] text-[#888b97]">
+                      {jobTitle}
+                    </dd>
+                  </dl>
+                </dd>
+              </div>
+            </dl>
           </dd>
         </div>
         <div>

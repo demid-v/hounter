@@ -13,13 +13,13 @@ import house2 from "../assets/house-2.png";
 import avatar4 from "../assets/avatar-4.jpg";
 
 const Hero = () => (
-  <section className="mb-[7.5rem] flex w-[calc(100%+7.5rem)] items-start">
-    <div className="flex-1 pt-[11.375rem] pr-[6.5rem]">
-      <img
-        src={cloud1}
-        alt="Blue cloud"
-        className="absolute top-0 left-0 -z-10"
-      />
+  <section className="mb-[7.5rem] flex w-[calc(100%+7.5rem)] items-start gap-x-[6.5rem]">
+    <img
+      src={cloud1}
+      alt="Blue cloud"
+      className="absolute top-0 left-0 -z-10"
+    />
+    <div className="flex-1 pt-[11.375rem]">
       <h1
         className="mb-6 text-[2.5rem] font-semibold leading-[3.125rem] text-[#1b1c57]"
         style={{

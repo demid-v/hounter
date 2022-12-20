@@ -23,6 +23,7 @@ type OfferData = {
 };
 
 type ReviewData = {
+  id: number;
   img: string;
   title: string;
   text: string;
@@ -44,7 +45,7 @@ type TipData = {
   publicationDate: string;
 };
 
-type SideTipData = TipData & { isMain?: false };
+type SideTipData = TipData & { id: number; isMain?: false };
 
 type MainTipData = TipData & { isMain: true; text: string };
 

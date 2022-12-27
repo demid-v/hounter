@@ -25,34 +25,24 @@ const RecommendationsCard: FC<{ rec: RecommendationsCardData }> = ({ rec }) => {
           <span>$ </span>
           <span>{costFormatted(rec.cost)}</span>
         </dd>
-        <dt className="sr-only">Owner</dt>
-        <dd>
-          <dl className="flex items-center gap-x-4">
-            <div>
-              <dt className="sr-only">Owner's avatar</dt>
-              <dd>
-                <img
-                  src={rec.owner.img}
-                  alt={rec.owner.alt}
-                  className="w-10 rounded-full"
-                />
-              </dd>
-            </div>
-            <div>
-              <dt className="sr-only">Owner's info</dt>
-              <dd>
-                <dl>
-                  <dt className="sr-only">Owner's name</dt>
-                  <dd className="mb-1 text-lg font-medium leading-6 text-[#0e1735]">
-                    {rec.owner.name}
-                  </dd>
-                  <dt className="sr-only">Property's location</dt>
-                  <dd className="text-sm font-medium leading-[1.375rem] text-[#888b97]">
-                    {rec.owner.location}
-                  </dd>
-                </dl>
-              </dd>
-            </div>
+        <dt className="sr-only">
+          <span className="sr-only">Owner</span>
+          <img
+            src={rec.owner.img}
+            alt={rec.owner.alt}
+            className="w-10 rounded-full"
+          />
+        </dt>
+        <dd className="flex items-center gap-x-4">
+          <dl>
+            <dt className="sr-only">Owner's name</dt>
+            <dd className="mb-1 text-lg font-medium leading-6 text-[#0e1735]">
+              {rec.owner.name}
+            </dd>
+            <dt className="sr-only">Property's location</dt>
+            <dd className="text-sm font-medium leading-[1.375rem] text-[#888b97]">
+              {rec.owner.location}
+            </dd>
           </dl>
         </dd>
       </dl>

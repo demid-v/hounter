@@ -92,23 +92,23 @@ const Hero = () => (
             <img
               src={avatar1}
               alt="Woman"
-              width="56"
-              height="56"
-              className="max-w-[3.5rem] rounded-full border-[0.188rem] border-white"
+              width={56}
+              height={56}
+              className="box-content min-w-[3.5rem] rounded-full border-[0.188rem] border-white"
             />
             <img
               src={avatar2}
               alt="Man"
-              width="56"
-              height="56"
-              className="-ml-[28px] max-w-[3.5rem] rounded-full border-[0.188rem] border-white"
+              width={56}
+              height={56}
+              className="-ml-[28px] box-content min-w-[3.5rem] rounded-full border-[0.188rem] border-white"
             />
             <img
               src={avatar3}
               alt="Woman"
-              width="56"
-              height="56"
-              className="-ml-[28px] max-w-[3.5rem] rounded-full border-[0.188rem] border-white"
+              width={56}
+              height={56}
+              className="-ml-[28px] box-content min-w-[3.5rem] rounded-full border-[0.188rem] border-white"
             />
           </div>
           <div className="w-[9.75rem]">
@@ -124,8 +124,8 @@ const Hero = () => (
           <img
             src={house2}
             alt="House"
-            width="56"
-            height="56"
+            width={56}
+            height={56}
             className="h-14 w-14 max-w-[3.5rem] rounded-3xl object-cover"
           />
           <div className="w-[5.125rem]">
@@ -139,8 +139,8 @@ const Hero = () => (
           <img
             src={avatar4}
             alt="House"
-            width="56"
-            height="56"
+            width={56}
+            height={56}
             className="h-14 w-14 max-w-[3.5rem] rounded-full border-[0.188rem] border-white object-cover"
           />
           <div className="w-[11.438rem]">
